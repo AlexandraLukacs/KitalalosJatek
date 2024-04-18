@@ -17,7 +17,16 @@ public class JatekIndito {
         /* csak a konstruktort hívjuk, referencia nélkül */
         new Jatek();
         
-        new Jatekos().tippel();
+        /* 3 játékos tippel */
+//        new Jatekos().tippel();
+//        new Jatekos().tippel();
+//        new Jatekos().tippel();
+        
+        /* 1 játékos tippel 3-szor */
+//        Jatekos j = new Jatekos();
+//        j.tippel();
+//        j.tippel();
+//        j.tippel();
     }
     
 }

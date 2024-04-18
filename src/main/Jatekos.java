@@ -4,9 +4,12 @@ import java.util.Random;
 
 
 public class Jatekos {
+    
+    Random rnd = new Random();
+    int tipp;
+    
     void tippel(){
-        Random rnd = new Random();
-        int tipp = rnd.nextInt(10);
+        tipp = rnd.nextInt(10);
         System.out.println("tippelésem: " + tipp);
     }
 }
